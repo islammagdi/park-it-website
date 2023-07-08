@@ -1,0 +1,149 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('bg.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center; */
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    font-family: 'Outfit', sans-serif;
+  }
+
+
+/* Styles for screens up to 576px (Extra Small) */
+@media (max-width: 576px) {
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+    
+      .content {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        max-width: 400px;
+        margin-right: 20px;
+      }
+  }
+  
+  /* Styles for screens between 576px and 767px (Small) */
+  @media (min-width: 576px) and (max-width: 767px) {
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+    
+      .content {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        max-width: 400px;
+        margin-right: 20px;
+      }
+  }
+  
+  /* Styles for screens between 768px and 991px (Medium) */
+  @media (min-width: 768px) and (max-width: 991px) {
+    .container {
+        display: flex;
+        justify-content: flex-end;
+        align-items: end;
+        height: 100vh;
+        padding: 20px;
+        box-sizing: border-box;
+      }
+    
+      .content {
+        background-color: rgba(255, 255, 255, 0.5);
+        padding: 20px;
+        max-width: 400px;
+        margin-right: 20px;
+      }
+  }
+  
+  /* Styles for screens between 992px and 1199px (Large) */
+  @media (min-width: 992px) and (max-width: 1199px) {
+    /* CSS rules for large screens */
+  }
+  
+  /* Styles for screens 1200px and above (Extra Large) */
+  @media (min-width: 1200px) {
+    /* CSS rules for extra large screens */
+  }
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  .park-it {
+    color: #1271b6;
+  }
+
+
+  .container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+
+  .content {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    max-width: 400px;
+    margin-right: 20px;
+  }
+
+  h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  button {
+    background-color: #1271B6;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+    font-size: 20px;
+    font-family: 'Outfit', sans-serif;
+}
+
+.qr-code {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  height: 100vh;
+  margin-right: 70px;
+}
+
+.qr-code img {
+  width: 100px;
+  height: 100px;
+}
